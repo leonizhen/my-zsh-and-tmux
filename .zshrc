@@ -93,13 +93,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export ONVM_HOME=/home/zhen/openNetVM-dev
-export RTE_SDK=/home/zhen/openNetVM-dev/dpdk
+export ONVM_HOME=/users/zhen/openNetVM-dev
+export RTE_SDK=/users/zhen/openNetVM-dev/dpdk
 export ONVM_NUM_HUGEPAGES=1024
 export RTE_TARGET=x86_64-native-linuxapp-gcc
 
-if which tmux 2>&1 >/dev/null; then
-  if [ $TERM != "screen-256color" ] && [  $TERM != "screen" ]; then
-    tmux attach -t zhen || tmux new -s zhen; exit
-  fi
-fi
+#if which tmux 2>&1 >/dev/null; then
+#  if [ $TERM != "screen-256color" ] && [  $TERM != "screen" ]; then
+#    tmux attach -t zhen || tmux new -s zhen; exit
+#  fi
+#fi
