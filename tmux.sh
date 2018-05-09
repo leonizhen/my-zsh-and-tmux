@@ -20,4 +20,4 @@ sudo mv tmux-${VERSION} /usr/local/src
 
 cd ~
 git clone https://github.com/gpakosz/.tmux.git
-ln -s -f .tmux/.tmux.conf
+ln -s -f my-zsh-and-tmux/.tmux.conf
