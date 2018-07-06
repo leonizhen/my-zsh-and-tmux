@@ -93,8 +93,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export ONVM_HOME=/users/zhen/openNetVM-dev
-export RTE_SDK=/users/zhen/openNetVM-dev/dpdk
+export ONVM_HOME=/opt/openNetVM-dev
+export RTE_SDK=/opt/openNetVM-dev/dpdk
 export ONVM_NUM_HUGEPAGES=1024
 export RTE_TARGET=x86_64-native-linuxapp-gcc
 
