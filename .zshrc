@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/leonizhen/.oh-my-zsh
+  export ZSH=/home/zhen/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -93,8 +93,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export ONVM_HOME=/home/leonizhen/openNetVM-dev
-export RTE_SDK=/home/leonizhen/openNetVM-dev/dpdk
+export ONVM_HOME=/home/zhen/openNetVM
+export RTE_SDK=/home/zhen/openNetVM-dev/dpdk
 export ONVM_NUM_HUGEPAGES=1024
 export RTE_TARGET=x86_64-native-linuxapp-gcc
 
