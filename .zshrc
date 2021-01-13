@@ -94,7 +94,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export ONVM_HOME=/home/zhen/openNetVM
-export RTE_SDK=/home/zhen/openNetVM-dev/dpdk
+export RTE_SDK=/home/zhen/openNetVM/dpdk
 export ONVM_NUM_HUGEPAGES=1024
 export RTE_TARGET=x86_64-native-linuxapp-gcc
 
